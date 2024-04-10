@@ -1,10 +1,10 @@
-x = 10
-y = 5
-z = x + y
+numero1 = 10
+numero2 = 5
+numero3 = numero1 + numero2
 
-def f(a, b):
-    c = a * b
-    return c
+def sumarDosNumeros(sumando1, sumando2):
+    suma = sumando1 * sumando2
+    return suma
 
-resultado = f(x, z)
+resultado = sumarDosNumeros(numero1, numero3)
 print(resultado)
